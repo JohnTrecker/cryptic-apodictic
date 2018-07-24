@@ -42,9 +42,7 @@ class App extends React.Component {
 
     renderLoggedInRoutes() {
         if (this.props.isLoggedIn) {
-            return <Switch>
-                <Route path='/home' component={UserHome} />
-            </Switch>;
+            return <Route path='/home' component={UserHome} />;
         } else {
             return null;
         }

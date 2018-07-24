@@ -4,7 +4,10 @@ unrelated-app/dist/bundle.js.map
 unrelated-app/secrets.js
 unrelated-app/.DS_Store
 unrelated-app/npm-debug.log
+
 callisto-fse/__pycache__
 callisto-fse/.venv
 callisto-fse/package_report.py
 callisto-fse/callisto_key.pub
+callisto-fse/test-report.txt.asc
+callisto-fse/README.txt
