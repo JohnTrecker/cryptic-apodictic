@@ -1,0 +1,25 @@
+.button {
+    background-color: $mm-black;
+    border-color: $mm-black;
+    color: $mm-white;
+
+    &:hover,
+    &:focus {
+        @extend .button;
+        border-color: $mm-blue;
+    }
+}
+
+.navbar .button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .navbar .button {
+    position: relative;
+    top: .5rem;
+    left: .5rem;
+  }
+}

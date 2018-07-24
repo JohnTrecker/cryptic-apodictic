@@ -1,0 +1,109 @@
+@import '~bulma/bulma';
+@import 'variables';
+@import 'util/buttons';
+@import 'navbar';
+@import 'login';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    margin-left: $app-horizontal-margin;
+    margin-right: $app-horizontal-margin;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    display: block;
+}
+
+img {
+    &.logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 60vw;
+    }
+}
+
+.Select-control {
+    border: 1px solid transparent;
+    min-width: 200px;
+    padding: 0 20px;
+}
+
+.home-select {
+    text-align: center;
+
+    input {
+        background-image: url('/assets/search.png');
+        background-position-x: right;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid #d3d3d3;
+        border-radius: 15px;
+        font-size: 1em;
+        margin: 10px 0 15px;
+        min-height: 30px;
+        min-width: 200px;
+        outline: none;
+        padding: 5px 20px;
+    }
+}
+
+input {
+    img {
+        float: right;
+    }
+}
+
+.Select-clear-zone {
+    font-size: 25px;
+    position: relative;
+    right: 1%;
+    vertical-align: middle;
+}
+
+.home-option {
+    font-size: 1em;
+    margin-bottom: 15px;
+
+    &:nth-of-type(1) {
+        margin-top: 10px;
+    }
+}
+
+table {
+    overflow: hidden;
+    table-layout: fixed;
+    text-align: left;
+    width: 100%;
+}
+
+td,
+th {
+    border-top: 1px solid #ecf0f1;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+tr {
+    &:nth-of-type(even) {
+        td {
+            background-color: #daf4f2;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-tablet) {
+    .app {
+        margin-left: $app-horizontal-margin-desktop;
+        margin-right: $app-horizontal-margin-desktop;
+    }
+}
