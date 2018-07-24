@@ -1,7 +1,7 @@
 # Cryptic Apodictic
 a cryptic saying and a coding sample
 
-This repo contains two separate and mostly unrelated repos. `callisto-fse` is a encryption exercise using [callisto-core](https://github.com/project-callisto/callisto-core/tree/master/callisto_core) and `mm-stack` is a snapshot of a project currently in development (July 2018) for a local non-profit called [Miracle Messsages](miraclemessages.org).
+This repo contains two separate and mostly unrelated repos. `callisto-fse` is a encryption exercise using [callisto-core](https://github.com/project-callisto/callisto-core) and `mm-stack` is a snapshot of a project currently in development (July 2018) for a local non-profit called [Miracle Messsages](miraclemessages.org).
 
 
 ## Running the mm-stack app locally
