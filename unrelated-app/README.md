@@ -1,11 +1,10 @@
 # Cryptic Apodictic
-### a cryptic saying and a code sample
+a cryptic saying and a coding sample
 
-## callisto-fse - fun with cryptography
+This repo contains two separate and mostly unrelated repos. `callisto-fse` is a encryption exercise using [callisto-core](https://github.com/project-callisto/callisto-core/tree/master/callisto_core) and `mm-stack` is a snapshot of a project currently in development (July 2018) for a local non-profit called [Miracle Messsages](miraclemessages.org).
 
-## mm-stack - sample full stack app for a local non-profit
 
-### Running the app locally
+## Running the mm-stack app locally
 1. Download postgres + postico https://postgresapp.com/
 2. Install command line postgres tools https://postgresapp.com/documentation/cli-tools.html
 3. Start postgres server on your laptop.  If you installed everything correctly, you should see an elephant in the top bar of your mac
