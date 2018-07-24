@@ -1,6 +1,10 @@
-node_modules
-dist/bundle.js
-dist/bundle.js.map
-secrets.js
-.DS_Store
-npm-debug.log
+unrelated-app/node_modules
+unrelated-app/dist/bundle.js
+unrelated-app/dist/bundle.js.map
+unrelated-app/secrets.js
+unrelated-app/.DS_Store
+unrelated-app/npm-debug.log
+callisto-fse/__pycache__
+callisto-fse/.venv
+callisto-fse/package_report.py
+callisto-fse/callisto_key.pub
